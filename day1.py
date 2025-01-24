@@ -1,12 +1,11 @@
 # Day 1: Historian Hysteria
-from numpy import isin
 from collections import Counter
 
 left = []
 right = []
 right_counter = Counter()
 
-with open('day1input.txt', 'r') as file:
+with open('day1_input.txt', 'r') as file:
     # Read each line in the file
     for line in file:
       distances = line.strip().split('   ')
